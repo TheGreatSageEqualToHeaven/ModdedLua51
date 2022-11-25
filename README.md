@@ -17,4 +17,4 @@ Added local variable attributes. (Not compile-time!)
 
 # Bytecode Changes
 
-(Bitwise operations and integer division had opcodes added between `OP_POW` and `OP_UNM`)[https://github.com/TheGreatSageEqualToHeaven/ModdedLua51/blob/main/Compiler/LuaCompiler-O/lopcodes.h#L177-L183]
+[Bitwise operations and integer division had opcodes added between `OP_POW` and `OP_UNM`](https://github.com/TheGreatSageEqualToHeaven/ModdedLua51/blob/main/Compiler/LuaCompiler-O/lopcodes.h#L177-L183)
