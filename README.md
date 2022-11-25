@@ -4,7 +4,7 @@ Lua 5.1 with added functionality
 
 # Syntax
 
-Removed ambiguous syntax error.
+<div>Removed ambiguous syntax error.<\div>
 Added LuaJIT suffixes.
 Added octal and binary numbers.
 Added continue statement.
