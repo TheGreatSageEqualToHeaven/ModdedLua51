@@ -1,4 +1,4 @@
-# ModdedLua51
+# Modded Lua51
 
 Lua 5.1 with added functionality
 
