@@ -13,7 +13,7 @@ Lua 5.1 with added functionality
 - Added bitwise operators.
 - Added integer division.
 - Added compound operators.
-- Added local variable attributes. (Not compile-time!) 
+- Added local variable attributes. (Not run-time) 
 
 # Bytecode Changes
 
