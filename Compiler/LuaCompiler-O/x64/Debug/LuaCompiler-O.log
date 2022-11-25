@@ -1,0 +1,84 @@
+﻿  lapi.c
+  lauxlib.c
+  lbaselib.c
+  lcode.c
+C:\Users\user\Documents\GitHub\Lua_Compiler\Compiler\LuaCompiler-O\lcode.c(645,18): warning C4244: '=': conversion from 'lua_Integer' to 'lua_Number', possible loss of data
+C:\Users\user\Documents\GitHub\Lua_Compiler\Compiler\LuaCompiler-O\lcode.c(646,19): warning C4244: '=': conversion from 'lua_Integer' to 'lua_Number', possible loss of data
+C:\Users\user\Documents\GitHub\Lua_Compiler\Compiler\LuaCompiler-O\lcode.c(647,19): warning C4244: '=': conversion from 'lua_Integer' to 'lua_Number', possible loss of data
+C:\Users\user\Documents\GitHub\Lua_Compiler\Compiler\LuaCompiler-O\lcode.c(648,21): warning C4244: '=': conversion from 'lua_Integer' to 'lua_Number', possible loss of data
+C:\Users\user\Documents\GitHub\Lua_Compiler\Compiler\LuaCompiler-O\lcode.c(649,21): warning C4244: '=': conversion from 'lua_Integer' to 'lua_Number', possible loss of data
+C:\Users\user\Documents\GitHub\Lua_Compiler\Compiler\LuaCompiler-O\lcode.c(650,19): warning C4244: '=': conversion from 'lua_Integer' to 'lua_Number', possible loss of data
+  ldblib.c
+  ldebug.c
+  ldo.c
+  ldump.c
+  lfunc.c
+  lgc.c
+C:\Users\user\Documents\GitHub\Lua_Compiler\Compiler\LuaCompiler-O\lgc.c(288,56): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+  linit.c
+  liolib.c
+  llex.c
+  lmathlib.c
+  lmem.c
+  loadlib.c
+  lobject.c
+  lopcodes.c
+  loslib.c
+  lparser.c
+C:\Users\user\Documents\GitHub\Lua_Compiler\Compiler\LuaCompiler-O\lparser.c(162,17): warning C4244: '=': conversion from 'lua_Integer' to 'lua_Number', possible loss of data
+  Generating Code...
+  Compiling...
+  lstate.c
+  lstring.c
+  lstrlib.c
+  ltable.c
+C:\Users\user\Documents\GitHub\Lua_Compiler\Compiler\LuaCompiler-O\ltable.c(323,5): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+C:\Users\user\Documents\GitHub\Lua_Compiler\Compiler\LuaCompiler-O\ltable.c(376,5): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+  ltablib.c
+  ltm.c
+  lua.c
+  lundump.c
+  lvm.c
+C:\Users\user\Documents\GitHub\Lua_Compiler\Compiler\LuaCompiler-O\lvm.c(357,9): warning C4244: '=': conversion from 'lua_Integer' to 'lua_Number', possible loss of data
+C:\Users\user\Documents\GitHub\Lua_Compiler\Compiler\LuaCompiler-O\lvm.c(544,11): warning C4244: '=': conversion from 'lua_Integer' to 'lua_Number', possible loss of data
+C:\Users\user\Documents\GitHub\Lua_Compiler\Compiler\LuaCompiler-O\lvm.c(548,11): warning C4244: '=': conversion from 'lua_Integer' to 'lua_Number', possible loss of data
+C:\Users\user\Documents\GitHub\Lua_Compiler\Compiler\LuaCompiler-O\lvm.c(552,11): warning C4244: '=': conversion from 'lua_Integer' to 'lua_Number', possible loss of data
+C:\Users\user\Documents\GitHub\Lua_Compiler\Compiler\LuaCompiler-O\lvm.c(556,11): warning C4244: '=': conversion from 'lua_Integer' to 'lua_Number', possible loss of data
+C:\Users\user\Documents\GitHub\Lua_Compiler\Compiler\LuaCompiler-O\lvm.c(560,11): warning C4244: '=': conversion from 'lua_Integer' to 'lua_Number', possible loss of data
+C:\Users\user\Documents\GitHub\Lua_Compiler\Compiler\LuaCompiler-O\lvm.c(569,15): warning C4244: '=': conversion from 'lua_Integer' to 'lua_Number', possible loss of data
+  lzio.c
+  print.c
+  Generating Code...
+     Creating library C:\Users\user\Documents\GitHub\Lua_Compiler\Compiler\x64\Debug\LuaCompiler-O.lib and object C:\Users\user\Documents\GitHub\Lua_Compiler\Compiler\x64\Debug\LuaCompiler-O.exp
+LINK : warning LNK4217: symbol 'lua_close' defined in 'lstate.obj' is imported by 'lua.obj' in function 'main'
+LINK : warning LNK4217: symbol 'lua_gettop' defined in 'lapi.obj' is imported by 'lua.obj' in function 'docall'
+LINK : warning LNK4217: symbol 'lua_settop' defined in 'lapi.obj' is imported by 'lua.obj' in function 'dotty'
+LINK : warning LNK4217: symbol 'lua_pushvalue' defined in 'lapi.obj' is imported by 'lua.obj' in function 'traceback'
+LINK : warning LNK4217: symbol 'lua_remove' defined in 'lapi.obj' is imported by 'lua.obj' in function 'docall'
+LINK : warning LNK4217: symbol 'lua_insert' defined in 'lapi.obj' is imported by 'lua.obj' in function 'docall'
+LINK : warning LNK4217: symbol 'lua_type' defined in 'lapi.obj' is imported by 'lua.obj' in function 'report'
+LINK : warning LNK4217: symbol 'lua_tolstring' defined in 'lapi.obj' is imported by 'lua.obj' in function 'dotty'
+LINK : warning LNK4217: symbol 'lua_objlen' defined in 'lapi.obj' is imported by 'lua.obj' in function 'loadline'
+LINK : warning LNK4217: symbol 'lua_touserdata' defined in 'lapi.obj' is imported by 'lua.obj' in function 'pmain'
+LINK : warning LNK4217: symbol 'lua_pushinteger' defined in 'lapi.obj' is imported by 'lua.obj' in function 'traceback'
+LINK : warning LNK4217: symbol 'lua_pushlstring' defined in 'lapi.obj' is imported by 'lua.obj' in function 'loadline'
+LINK : warning LNK4217: symbol 'lua_pushstring' defined in 'lapi.obj' is imported by 'lua.obj' in function 'dolibrary'
+LINK : warning LNK4217: symbol 'lua_pushfstring' defined in 'lapi.obj' is imported by 'lua.obj' in function 'dotty'
+LINK : warning LNK4217: symbol 'lua_pushcclosure' defined in 'lapi.obj' is imported by 'lua.obj' in function 'docall'
+LINK : warning LNK4217: symbol 'lua_getfield' defined in 'lapi.obj' is imported by 'lua.obj' in function 'dolibrary'
+LINK : warning LNK4217: symbol 'lua_createtable' defined in 'lapi.obj' is imported by 'lua.obj' in function 'getargs'
+LINK : warning LNK4217: symbol 'lua_setfield' defined in 'lapi.obj' is imported by 'lua.obj' in function 'handle_script'
+LINK : warning LNK4217: symbol 'lua_rawseti' defined in 'lapi.obj' is imported by 'lua.obj' in function 'getargs'
+LINK : warning LNK4217: symbol 'lua_call' defined in 'lapi.obj' is imported by 'lua.obj' in function 'traceback'
+LINK : warning LNK4217: symbol 'lua_pcall' defined in 'lapi.obj' is imported by 'lua.obj' in function 'docall'
+LINK : warning LNK4217: symbol 'lua_cpcall' defined in 'lapi.obj' is imported by 'lua.obj' in function 'main'
+LINK : warning LNK4217: symbol 'lua_gc' defined in 'lapi.obj' is imported by 'lua.obj' in function 'docall'
+LINK : warning LNK4217: symbol 'lua_concat' defined in 'lapi.obj' is imported by 'lua.obj' in function 'loadline'
+LINK : warning LNK4217: symbol 'lua_sethook' defined in 'ldebug.obj' is imported by 'lua.obj' in function 'laction'
+LINK : warning LNK4217: symbol 'luaL_checkstack' defined in 'lauxlib.obj' is imported by 'lua.obj' in function 'getargs'
+LINK : warning LNK4217: symbol 'luaL_error' defined in 'lauxlib.obj' is imported by 'lua.obj' in function 'lstop'
+LINK : warning LNK4217: symbol 'luaL_loadfile' defined in 'lauxlib.obj' is imported by 'lua.obj' in function 'dofile'
+LINK : warning LNK4217: symbol 'luaL_loadbuffer' defined in 'lauxlib.obj' is imported by 'lua.obj' in function 'dostring'
+LINK : warning LNK4217: symbol 'luaL_newstate' defined in 'lauxlib.obj' is imported by 'lua.obj' in function 'main'
+LINK : warning LNK4217: symbol 'luaL_openlibs' defined in 'linit.obj' is imported by 'lua.obj' in function 'pmain'
+  LuaCompiler-O.vcxproj -> C:\Users\user\Documents\GitHub\Lua_Compiler\Compiler\x64\Debug\LuaCompiler-O.exe
